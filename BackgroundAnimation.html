@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <style>
+   .backanim {
+    background:linear-gradient(
+     to right, #0ff, #fb36f4, #ffe031
+    );
+    background-size: 400% 400%;
+    animation : animate-back 10s infinite ease-in-out;
+   }
+   @keyframes animate-back {
+    0% {
+     background-position: 0 50%;
+    }
+    50% {
+     background-position: 100% 50%;
+    }
+    100% {
+     background-position: 0 50%
+    }
+   }
+  </style>
+ </head>
+ <body class="backanim">
+  <h4 style="color: azure;">background animated |
+  DEVS-RK </h4>
+ </body>
+</html>
